@@ -1061,5 +1061,5 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .buy a:hover, a:active {
-  color: #FFFFFF;
+  color: #009900 !important;
 }
