@@ -1046,7 +1046,7 @@ footer .social-links li:first-child { margin-left: 0; }
 
 .buy {
   font: 18px/1.9em 'librebaskerville-regular', serif;
-  color: #FFFFFF;
+  color: #11ABB0;
   margin: 10pt 10pt;
   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
   padding: 14px 25px;
@@ -1057,7 +1057,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 
 .buy a:link, a:visited {
-  color: #FFFFFF;
+   color: #11ABB0;
 }
 
 .buy a:hover, a:active {
