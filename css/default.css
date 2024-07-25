@@ -804,3 +804,75 @@ properly.
 	margin-right: auto !important;
 	text-align: center !important;
 }
+
+.post {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.post-content {
+    margin-left: 10px;
+    flex: 1;
+}
+.post-title {
+    font-size: 1.5em;
+    color: #009900;
+}
+.post-title a {
+    color: #009900;
+    text-decoration: none;
+}
+
+.post-title a:visited {
+    color: #009900;
+    text-decoration: none;
+}
+
+.post-title a:hover {
+    text-decoration: underline;
+}
+.post-date {
+    font-size: 0.9em;
+    color: #999;
+}
+.post-excerpt {
+    color: #666;
+}
+.post-image {
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+#blog {
+    background-color: white;
+}
+
+#blog-posts {
+    background-color: white;
+}
+
+/*
+#blog h2 {
+  font: 30px/40px 'opensans-bold', sans-serif;
+  color: #009900;
+  padding: 20pt 0 10pt 0;
+}
+*/
+
+#blog h2 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   padding: 20pt 0 10pt 0;
+}
+#blog h2 span {
+   border-bottom: 3px solid #009900;
+   padding-bottom: 6px;
+}
+
+.post-title h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: #009900;
+}
